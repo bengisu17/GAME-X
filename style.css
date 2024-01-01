@@ -28,11 +28,11 @@ body::before{
     background-position: center;
     background-size: auto;
     
-}
+};
 
 header {
     padding-bottom: 1.5rem;
-    background-color: #6e6d6d;
+    background-color: #6e6d6de0;
     position: relative;
     padding-inline-start: 8px;
     padding-top: 0.2rem;
