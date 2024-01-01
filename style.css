@@ -10,6 +10,17 @@ header {
     height: 75px;
 }
 
+header h1{
+    color: white;
+    font-family: Montserrat;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    padding-left: 2rem;
+    font-size: 40px;
+    padding-bottom: 1rem;
+}
+
 button {
     justify-content: center;
 }
