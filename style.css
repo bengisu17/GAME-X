@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Montserrat&family=Playfair+Display&family=Rubik+Doodle+Shadow&display=swap');
 
-header {
+.parent header {
     padding-bottom: 1.5rem;
     background-color: #6e6d6de0;
     position: relative;
@@ -10,7 +10,7 @@ header {
     height: 75px;
 }
 
-header h1{
+.parent header h1{
     color: white;
     font-family: Montserrat;
     display: flex;
@@ -26,6 +26,31 @@ header h1{
     color: rgb(17, 0, 255);
     text-shadow: 0 0 2px rgb(17, 0, 255), 0 0 2px rgb(17, 0, 255), 0 0 15px rgb(17, 0, 255), 0 0 2px rgb(17, 0, 255);
     animation: neon-glow 4s ease-in-out infinite alternate;
+}
+
+.parent .mission {
+    display: flex;
+    flex-direction: column;
+    background-color: #3b3939;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+    padding-top: 1.5rem;
+    height: 150px;
+    justify-content: center;
+}
+
+
+
+.parent .mission h3 {
+    font-family: Rubik Doodle Shadow;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    padding-top: 5.5rem;
+    z-index: 3;
 }
 
 button {
