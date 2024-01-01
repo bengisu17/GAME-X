@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Montserrat&family=Playfair+Display&family=Rubik+Doodle+Shadow&display=swap');
 
-
+header {
+    padding-bottom: 1.5rem;
+    background-color: #6e6d6de0;
+    position: relative;
+    padding-inline-start: 8px;
+    padding-top: 0.2rem;
+    z-index: 1;
+    height: 75px;
+}
 
 button {
     justify-content: center;
