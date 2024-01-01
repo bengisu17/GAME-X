@@ -21,6 +21,13 @@ header h1{
     padding-bottom: 1rem;
 }
 
+.neon {
+    font-size: 40px;
+    color: rgb(17, 0, 255);
+    text-shadow: 0 0 2px rgb(17, 0, 255), 0 0 2px rgb(17, 0, 255), 0 0 15px rgb(17, 0, 255), 0 0 2px rgb(17, 0, 255);
+    animation: neon-glow 4s ease-in-out infinite alternate;
+}
+
 button {
     justify-content: center;
 }
