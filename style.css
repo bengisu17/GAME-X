@@ -29,8 +29,12 @@ header h1{
 }
 
 
+
 button {
     justify-content: center;
+    height: 2.5rem;
+    border-radius: 6px;
+    margin-top: 16px;
 }
 
 body::before{
@@ -68,17 +72,19 @@ html, body{
     position: absolute;
     left: 50%;
     top: 50%;
-    border-radius: 4px;
+    border-radius: 6px;
     padding: 70px;
     width: 450px;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, .75);
     padding-top: 1rem;
+    margin-top: 3rem;
 }
 
 .form-wrapper h2{
     color: #fff;
     font-size: 2rem;
+    text-align: center;
 }
 
 .form-wrapper form{
@@ -88,7 +94,7 @@ html, body{
 form .form-control{
     height: 50px;
     position: relative;
-    margin-bottom: 16px;
+    margin-bottom: 25px;
 }
 
 .form-control input{
@@ -169,7 +175,7 @@ form .remember-me {
 
 form .remember-me input {
     margin-right: 5px;
-    accent-color: #b3b3b3;
+    accent-color: red;
 }
 
 form .form-help :where(label, a) {
