@@ -22,7 +22,7 @@ header h1{
 }
 
 .neon {
-    font-size: 45px;
+    font-size: 40px;
     color: rgb(17, 0, 255);
     text-shadow: 0 0 5px rgb(17, 0, 255), 0 0 10px rgb(17, 0, 255);
     animation: neon-glow 1s ease-in-out infinite alternate;
